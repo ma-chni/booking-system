@@ -10,19 +10,16 @@ namespace BookingSystem
 
         static void Main(string[] args)
         {
-            //Variabels
             bool isRunning = true;
             string roomName;
             string description;
             int id = 0;
             int i = 0;
-            //Lists
             List<DateTime> toReservation = new List<DateTime>();
             List<DateTime> fromReservation = new List<DateTime>();
             List<string> addroom = new List<string>();
             List<string> adddescription = new List<string>();
             List<string> addId = new List<string>();
-            //Login user
             string correctUsername = "";
             string correctPassword = "";
             Console.WriteLine("Username: \n");
